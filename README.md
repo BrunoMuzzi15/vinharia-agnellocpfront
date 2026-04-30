@@ -44,7 +44,7 @@ O site é composto pelas seguintes páginas:
 
 - HTML
 - CSS
-
+- JavaScript (sistema básico de gerenciamento de vinhos)
 ---
 
 ## 🌐 Acesso ao Projeto
@@ -56,4 +56,4 @@ https://thiagolutfi.github.io/vinharia-agnellocpfront/
 
 ## 📌 Observações
 
-Este projeto foi desenvolvido como parte das atividades acadêmicas, com foco na aplicação prática de conceitos de desenvolvimento front-end e versionamento com Git e GitHub.
+Este projeto foi desenvolvido como parte das atividades acadêmicas, com foco na aplicação prática de conceitos de desenvolvimento front-end, Web development e versionamento com Git e GitHub.

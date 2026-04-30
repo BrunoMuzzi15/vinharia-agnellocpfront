@@ -7,11 +7,30 @@
     <meta name="description" content="Catálogo vinharia Agnello">
     <title>Vinharia Agnello</title>
     <link rel="stylesheet" href="src/css/style.css">
-    <script src="src/js/script.js"></script>
+    <link rel="stylesheet" href="src/css/efeitos.css">
+    <style>
+        header {
+            background: linear-gradient(
+                to bottom,
+                #5c1d36, #2b0412, #38081b, #180109, #5c1d36);
+            background-size: 100% 400%;
+            background-position: 0% 0%;
+            animation-name: tituloDinamico;
+            animation-iteration-count: infinite;
+            animation-duration: 5s;
+            animation-direction: alternate;
+        }
+
+        @keyframes tituloDinamico {
+            0%   { background-position: 0% 0%; }
+            50%  { background-position: 0% 100%; }
+            100% { background-position: 0% 0%; }
+        }
+    </style>
 </head>
 <body>
 
-<header id="topo">
+<header class="header-animado">
     <h1 class="titulo">VINHARIA AGNELLO</h1>
 
     <nav>
@@ -35,13 +54,14 @@
 
     <section>
         <h2>Por que escolher a Vinharia Agnello?</h2>
-
-        <ul>
-            <li>Atendimento Personalizado</li>
-            <li>Funcionários capacitados</li>
-            <li>Vinhos selecionados</li>
-            <li>Armazenamento ideal dos vinhos</li>
-        </ul>
+        <div class="container-topicos">
+            <ul class="topicos">
+                <li>Atendimento Personalizado</li>
+                <li>Funcionários capacitados</li>
+                <li>Vinhos selecionados</li>
+                <li>Armazenamento ideal dos vinhos</li>
+            </ul>
+        </div>
     </section>
 
     <section>
@@ -62,6 +82,8 @@
         © 2026 Vinharia Agnello - Todos os direitos reservados
     </p>
 </footer>
+
+<script src="src/js/script.js"></script>
 
 </body>
 </html>

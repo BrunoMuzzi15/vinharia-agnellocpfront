@@ -1,0 +1,46 @@
+//pagina index.html(Thiago)
+//Animação com keyframe (parte do topo da pagina)
+//tive que colocar diretamente no index.HTML porque o seletor header no efeitos.css já existe e está sendo carregado de uma versão antiga em cache. (comportamento estranho)
+
+//Ao passar o mouse o background muda de cor (pseudo-classe :hover e aumenta de tamanho com uma transição)
+.container-topicos {
+    display: flex;
+    justify-content: center;
+}
+
+.topicos {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.topicos li {
+    padding: 6px 12px;
+    border: 1px solid #ccb1ba;
+    border-radius: 4px;
+    transition: padding 0.5s ease, background-color 0.3s ease;
+    background-color: #39111f;
+    width: fit-content;
+}
+
+.topicos li:hover {
+    padding: 6px 44px;
+    background-color: #5c1d36;
+}
+
+//Requisitos que faltam : 2 pseudoclasses diferentes, 2 pseudo-elementos, 2 transformações (scale, rotate e etc) e transições simples e o README.md no final do projeto)
+//Lembrem de linkar o efeitos.css na pagina de vcs
+
+
+
+//pagina contato.html
+
+
+//pagina equipe.html
+
+
+//pagina historia.html
+

@@ -1,0 +1,81 @@
+Bruno
+/* =========================
+PSEUDO-CLASSES
+========================= */
+
+/* Hover em botões */
+button:hover {
+background-color: #4a172a;
+color: white;
+transform: scale(2);
+}
+
+/* Primeira letra estilizada */
+p:first-letter {
+font-size: 2em;
+font-weight: bold;
+color: #8b0000;
+}
+
+
+/* =========================
+ANIMAÇÃO
+========================= */
+
+@keyframes fadeIn {
+from {
+    opacity: 0;
+    transform: translateY(4px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+
+/* Aplicando animação */
+.banner {
+animation: fadeIn 3s ease-in-out;
+}
+
+
+/* =========================
+TRANSIÇÕES*/
+
+a {
+color: black;
+transition: 0.3s;
+}
+
+a:hover {
+color: #8b0000;
+}
+
+
+/* TRANSFORMAÇÕES */
+
+/* Zoom em imagem */
+img:hover {
+transform: scale(1.5);
+}
+
+/* Rotação leve */
+.card:hover {
+transform: rotate(2deg);
+}
+
+
+nav ul li{
+color: black;
+text-decoration: none;
+transition: 0.3s;
+}
+
+nav ul li::selection {
+color: #8b0000;
+}
+
+::selection{
+background-color: #4a172a;
+color: #8b0000;
+}

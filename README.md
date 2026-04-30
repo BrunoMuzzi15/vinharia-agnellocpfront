@@ -57,3 +57,13 @@ https://thiagolutfi.github.io/vinharia-agnellocpfront/
 ## 📌 Observações
 
 Este projeto foi desenvolvido como parte das atividades acadêmicas, com foco na aplicação prática de conceitos de desenvolvimento front-end e versionamento com Git e GitHub.
+
+Feito por Bruno
+## 🎨 Efeitos Visuais
+
+Foram implementados efeitos utilizando CSS nas:
+
+- Pseudo-classes: hover, focus e nth-child usado nos botões e nas letras estilizadas
+- Pseudo-elementos: before, after e first-letter usado nos títulos e nos parágrafos 
+- Animação com @keyframes (fadeIn) usado nas animações, transições e transformações
+- Transformações como scale e rotate usado nas imagens e em um tópico
